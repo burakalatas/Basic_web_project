@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 725px;
+    background-image: url('Photos/BgImage/whitebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.BgGray {
+    background-image: url('Photos/BgImage/graybg.png');
+}
+
+.navbar {
+    background-color: #58D68D;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    padding-left: 3em;
+    padding-right: 3em;
+    border-left: 2px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
+    color: black;
+}
+
+li a:hover {
+    background-color: #eeeeee;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+.navButton {
+    background-color: #58D68D;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+#bulb {
+    width: 4em;
+    height: 3em;
+}
+
+.images img {
+    width: 31%;
+    height: 13em;
+    float: left;
+    margin-block-end: calc(7%/2);
+    margin-inline-end: calc(7%/2);
+}
+
+.images img:nth-child(3n) {
+    margin: 0;
+}
+
+#topButton {
+    position: fixed;
+    display: none;
+    bottom: 1em;
+    right: 1.8em;
+    background-color: #58D68D;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 0.3em 1em;
+}

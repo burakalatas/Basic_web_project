@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <!-- google font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Ms+Madi&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="index.html">Main Page</a></li>
+        <li><a href="content.html">Content Page</a></li>
+        <li><a href="contact.html">Contact Page</a></li>
+        <li><button onclick="dark()" class="navButton" id="bulb"><img id="bulbic" src="Photos/LightBulb.png" alt="bulb"
+                    width="100%" height="100%"></button></li>
+    </ul>
+
+    <form action="">
+        <h1 style="text-align: center;">Contact Us</h1>
+
+        <fieldset>
+            <legend>Contract Confirm</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="accept" id="accept"> I accept the accuracy of the information below
+                        and
+                        confirm
+                        the contract.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <input type="submit" value="Save Form">
+                        <input type="reset" value="Clean Form">
+                    </td>
+
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td><label for="id">Form Security Id</label></td>
+                    <td><input type="text" value="007" disabled></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="surname">Surname</label></td>
+                    <td><input type="text" name="surname" id="surname" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" name="age" id="age" min="0" max="150" placeholder="Write your age here"
+                            style="width: 10em;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Mail Address</label></td>
+                    <td><input type="text" name="mail" id="mail"></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="image">Add Image</label></td>
+                    <td><input type="file" name="image" id="image"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <table>
+                <p>Fields here cover Professional Experience</p>
+                <tr>
+                    <td><label for="date">Enterind the Industry Date</label></td>
+                    <td><input type="date" name="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="experience">Sector Experience</label></td>
+                    <td><input type="radio">1-5years</td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="1-5 years">deneme</option>
+                            <option value="">deneme2</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+
+    </form>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim quaerat hic eaque voluptates ut esse
+        inventore aliquid voluptate maxime sint modi sequi veniam nulla commodi consequatur ratione adipisci minima.
+        Esse dolores ducimus eaque voluptate aliquid quo praesentium quis, consequuntur at dolorem aut perspiciatis iste
+        atque aspernatur iusto inventore architecto ipsum deserunt. Nobis expedita impedit libero quos rerum quam
+        veniam.
+        Labore, tempora saepe! Quis doloribus ullam enim inventore blanditiis iusto quasi facilis voluptas iste eum
+        dignissimos tenetur dolores, quidem obcaecati sit pariatur, perferendis quod repellendus, rerum expedita earum
+        ducimus! Unde.</p>
+
+    <div>
+        <button onclick="goUp()" id="topButton" title="Go to top">Back to top</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
