@@ -90,3 +90,9 @@ p {
     cursor: pointer;
     padding: 0.3em 1em;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+}
