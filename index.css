@@ -21,6 +21,7 @@ body {
     height: 3em;
     margin: 0;
     margin-bottom: 1em;
+    justify-content: space-around;
 }
 
 .navbar a {
@@ -34,7 +35,6 @@ body {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -42,12 +42,16 @@ ul {
 }
 
 li {
-    padding: 0.5em 1em;
+    padding: 0.3em 1em;
     border-left: 2px solid #eeeeee;
     border-right: 2px solid #eeeeee;
 }
 
 li a {
+    color: black;
+}
+
+li a:hover {
     color: black;
 }
 

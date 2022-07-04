@@ -12,6 +12,9 @@ function dark() {
 
     document.body.classList.toggle('BgGray');
 
+    var button2 = document.getElementById("topButton");
+    button2.style.backgroundColor = button2.style.backgroundColor === "gray" ? "#58D68D" : "gray";
+
 }
 
 function goUp() {
