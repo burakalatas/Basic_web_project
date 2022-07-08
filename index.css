@@ -22,6 +22,8 @@ body {
     margin: 0;
     margin-bottom: 1em;
     justify-content: space-around;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
 
 .navbar a {
@@ -41,12 +43,6 @@ ul {
     padding-inline-start: 0;
 }
 
-li {
-    padding: 0.3em 1em;
-    border-left: 2px solid #eeeeee;
-    border-right: 2px solid #eeeeee;
-}
-
 li a {
     color: black;
 }
@@ -55,8 +51,17 @@ li a:hover {
     color: black;
 }
 
-li:hover {
+.lielements:hover {
     background-color: #eeeeee;
+    transform: scale(1.05);
+}
+
+.lielements {
+    padding: 0.3em 1em;
+    border-left: 2px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
+    border-radius: 10px;
+    transition: 0.25s;
 }
 
 
@@ -98,5 +103,9 @@ p {
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
+    }
+
+    .navbar {
+        border-radius: 0;
     }
 }
