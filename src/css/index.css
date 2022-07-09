@@ -108,4 +108,10 @@ p {
     .navbar {
         border-radius: 0;
     }
+
+    img,
+    p {
+        width: 100%;
+        margin: 0;
+    }
 }
