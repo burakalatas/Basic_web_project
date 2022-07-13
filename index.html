@@ -19,6 +19,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!-- jquery ajax for clock -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+
     <title>Home Page</title>
 
     <!-- Font Awesome -->
@@ -31,24 +39,32 @@
 
 <body>
     <ul class="navbar">
-        <li style="border: none;"><a href="index.html">burakalatas.com</a></li>
-        <li class="lielements" onclick="dark()" style="cursor:pointer;">Koyu Mod</li>
+        <li style="border: none;"><a href="index.html" style="font-family: 'Fredoka', sans-serif;">burakalatas.com</a>
+        </li>
+        <li class="lielements" onclick="dark()" style="cursor:pointer; font-family: 'Fredoka', sans-serif;">Koyu Mod
+        </li>
     </ul>
-    <div class="container">
+    <div class="container" id="clock"><span id="date"></span> <span id="time"></span></div>
 
+
+    <div class="container">
         <h1
             style="text-align: center; font-weight: bold; color: #6f6f6f; font-family: 'Ms Madi', cursive; font-size: 50px;">
             Hoşgeldiniz!
         </h1>
-
         <br>
-        <div class="container dnm">
-            <img src="src/images/kurbanBayrami.jpg" width="100%" alt="">
-            <p style=" font-family: 'Ms Madi', cursive; font-size: 37px; text-align: center;">
-                Kurban Bayramınız Mübarek Olsun!</p>
-        </div>
+    </div>
 
-        <!-- <div class="images">
+    <div id="sentenceofdayexternal">
+        <H3>Günün Sözü:</H3>
+        <p id="sentenceofday">Günün sözü atanmamış!</p>
+    </div>
+
+
+
+
+
+    <!-- <div class="images">
             <img src="#" alt="">
             <img src="#" alt="">
             <img src="#" alt="">
@@ -60,7 +76,8 @@
             <img src="#" alt="">
         </div> -->
 
-    </div>
+
+
     <div style="height:70vh ;"></div>
 
     <div class="container">
@@ -70,16 +87,13 @@
     </div>
 
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-12 d-flex align-items-center">
-                <a href="/" class="mb-6 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24">
-                        <use xlink:href="#bootstrap" />
-                    </svg>
-                </a>
+        <footer class="d-flex flex-wrap justify-content-end align-items-center py-3 my-4 border-top">
+            <div class="col-md-8 d-flex align-items-center">
                 <span class="mb-12 mb-md-0 text-muted">&copy; 2022 created by Burak Alatas. All rights reserved.</span>
             </div>
-            </ul>
+            <div class="col-md-4 d-flex align-items-end justify-content-end">
+                <p id="timer"></p>
+            </div>
         </footer>
     </div>
     <div>
@@ -87,6 +101,8 @@
     </div>
 
     <script src="src/js/index.js"></script>
+    <script src="src/js/timer.js"></script>
+    <script src="src/js/sentenceofday.js"></script>
 </body>
 
 </html>

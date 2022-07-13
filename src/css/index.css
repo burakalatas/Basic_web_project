@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     margin: 0;
 }
@@ -16,11 +16,10 @@ body {
 
 .navbar {
     background-color: #58D68D;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     width: 100%;
     height: 3em;
     margin: 0;
-    margin-bottom: 1em;
     justify-content: space-around;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
@@ -100,11 +99,6 @@ p {
     padding: 0.3em 1em;
 }
 
-.dnm {
-    width: 50%;
-    margin-left: 0;
-}
-
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
@@ -114,11 +108,35 @@ p {
         border-radius: 0;
     }
 
+    #sentenceofdayexternal {
+        right: 3% !important;
+        width: 94% !important;
+
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
-    .dnm {
+    /* .dnm {
         width: 100%;
         margin: 0;
-    }
+    } */
+}
+
+/* Sentence of Day */
+#sentenceofdayexternal {
+    border: 2px solid #58D68D;
+    padding: 0.3em;
+    display: inline-block;
+    border-radius: 5px;
+    width: 14em;
+    position: absolute;
+    right: 12%;
+    background-color: rgb(253, 247, 239);
+
+}
+
+/* time */
+#clock {
+    text-align: end;
 }
