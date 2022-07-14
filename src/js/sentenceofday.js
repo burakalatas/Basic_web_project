@@ -9,7 +9,7 @@ quotes[7, 18] = "Hayattaki en büyük zafer benim için hiçbir zaman düşmemek
 quotes[7, 19] = "Hayatta en kıymetli hediye zamandır. Kime hediye ettiğinize dikkat edin."
 quotes[7, 20] = "Her ağlayan güçsüz değildir. Tıpkı her gülenin mutlu olmadığı gibi."
 quotes[7, 21] = "Asla başka insanlar üzülmesin diye kendini üzme. Sen kaldırabiliyorsan onlar da kaldırabilir. - Bob Marley"
-quotes[7, 22] = ""
+quotes[7, 22] = "Bir şeyi çok istersin olmaz, hiç istemezsin yine olmaz, birine söylersen hiç olmaz, söylemesen de olmaz. Bazen ne yaparsan yap olmaz."
 quotes[7, 23] = ""
 
 

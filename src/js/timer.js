@@ -33,6 +33,11 @@ function clock() {
     // Get today's date and time
     var nowHours = new Date().getHours();
     var nowMinutes = new Date().getMinutes();
+    if (nowHours < 10) {
+        var c = nowHours;
+        nowHours = "0";
+        nowHours += c;
+    }
     if (nowMinutes < 10) {
         var c = nowMinutes;
         nowMinutes = "0";

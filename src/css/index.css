@@ -99,7 +99,7 @@ p {
     padding: 0.3em 1em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     body {
         margin: 0;
     }
@@ -108,10 +108,13 @@ p {
         border-radius: 0;
     }
 
-    #sentenceofdayexternal {
-        right: 3% !important;
+    #sentenceofdayexternal,
+    .blog {
+        right: 0 !important;
+        left: 3%;
         width: 94% !important;
-
+        display: block !important;
+        position: relative !important;
     }
 
 }
@@ -125,18 +128,30 @@ p {
 
 /* Sentence of Day */
 #sentenceofdayexternal {
-    border: 2px solid #58D68D;
+    border: 2px solid #deb953;
     padding: 0.3em;
     display: inline-block;
     border-radius: 5px;
-    width: 14em;
+    width: 18%;
     position: absolute;
     right: 12%;
-    background-color: rgb(253, 247, 239);
+    background-color: rgb(239, 228, 214);
+    margin-bottom: 1em;
 
 }
 
 /* time */
 #clock {
     text-align: end;
+}
+
+/* blog */
+.blog {
+    border: 2px solid #58D68D;
+    padding: 0.3em;
+    width: 73%;
+    border-radius: 5px;
+    background-color: rgb(253, 247, 239);
+    margin-bottom: 1em;
+
 }
