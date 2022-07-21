@@ -10,7 +10,15 @@ quotes[7, 19] = "Hayatta en kıymetli hediye zamandır. Kime hediye ettiğinize 
 quotes[7, 20] = "Her ağlayan güçsüz değildir. Tıpkı her gülenin mutlu olmadığı gibi."
 quotes[7, 21] = "Asla başka insanlar üzülmesin diye kendini üzme. Sen kaldırabiliyorsan onlar da kaldırabilir. - Bob Marley"
 quotes[7, 22] = "Bir şeyi çok istersin olmaz, hiç istemezsin yine olmaz, birine söylersen hiç olmaz, söylemesen de olmaz. Bazen ne yaparsan yap olmaz."
-quotes[7, 23] = ""
+quotes[7, 23] = "Büyük şeyler küçük şeylerin bir araya gelmesidir. -Van Gogh"
+quotes[7, 25] = "Açıklamalarla vaktini harcama. İnsanlar sadece duymak istediklerini duyarlar. -Paulo Coelho"
+quotes[7, 26] = "Her bildiğini söyleme, her söylediğini bil. -Clavdius"
+quotes[7, 27] = "Savaşın iyisi, barışın kötüsü yoktur. -Benjamin Franklin"
+quotes[7, 28] = "Hayatta hep mutlu olursam, Hayalini kuracak neyim kalır. -Dostoyevski"
+quotes[7, 29] = "İnsanların seni çok sevdiği zaman, onların işine en çok yaradığın zamandır. -Bukowski"
+quotes[7, 30] = "Hayatta daima gerçekleri savun! Takdir eden olmasa bile, vicdanına hesap vermekten kurtulursun. -Che Guevara"
+quotes[7, 31] = "Hayat geç kalanları hiç affetmez. -Gorbachov"
+
 
 
 var a = new Date();

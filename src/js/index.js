@@ -34,6 +34,6 @@ function scrollFunction() {
     }
 }
 
-function iyiki() {
-    swal("İyi ki varsınnn! <3");
+function denemeSA() {
+    swal("sweet alert deneme mesajı");
 }

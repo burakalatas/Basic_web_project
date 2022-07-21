@@ -24,7 +24,7 @@ var x = setInterval(function () {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "HAPPY BIRTHDAY TO ME";
+        document.getElementById("timer").innerHTML = "Timer deneme";
     }
 }, 1000);
 
