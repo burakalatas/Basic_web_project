@@ -1,3 +1,4 @@
+//koyu tema
 function dark() {
     var body = document.querySelector("body");
     body.style.backgroundColor = body.style.backgroundColor === "darkgray" ? "white" : "darkgray";
@@ -16,7 +17,9 @@ function dark() {
     button2.style.backgroundColor = button2.style.backgroundColor === "gray" ? "#58D68D" : "gray";
 
 }
+//--------------------------------
 
+//en yukarı çıkma butonu
 function goUp() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -33,7 +36,27 @@ function scrollFunction() {
         topButton.style.display = "none";
     }
 }
+//--------------------------------
 
+// paragrafları görünür yapma...
+var coll = document.getElementsByClassName("blogtitle");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}
+//--------------------------------
+
+//sweet alert kullanımı (aktif değil)
 function denemeSA() {
     swal("sweet alert deneme mesajı");
 }
+//--------------------------------

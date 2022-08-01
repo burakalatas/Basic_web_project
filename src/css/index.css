@@ -11,7 +11,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .navbar {
@@ -105,15 +104,16 @@ p {
     }
 
     .navbar {
-        border-radius: 0;
+        width: 94%;
+        left: 3%;
     }
 
     #sentenceofdayexternal,
-    .blog {
+    .blog,
+    .blogtitle {
         right: 0 !important;
         left: 3%;
         width: 94% !important;
-        display: block !important;
         position: relative !important;
     }
 
@@ -130,14 +130,60 @@ p {
 #sentenceofdayexternal {
     border: 2px solid #deb953;
     padding: 0.3em;
-    display: inline-block;
     border-radius: 5px;
-    width: 18%;
-    position: absolute;
-    right: 12%;
     background-color: rgb(239, 228, 214);
     margin-bottom: 1em;
 
+
+    background: linear-gradient(270deg, #e3caa5, #dddddd);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 /* time */
@@ -147,11 +193,42 @@ p {
 
 /* blog */
 .blog {
-    border: 2px solid #58D68D;
+    border-bottom: 2px solid #58D68D;
+    border-left: 2px solid #58D68D;
+    border-right: 2px solid #58D68D;
     padding: 0.3em;
-    width: 73%;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: rgb(253, 247, 239);
     margin-bottom: 1em;
+    display: none;
 
+}
+
+.blogtitle {
+    border-top: 2px solid #58D68D;
+    border-right: 2px solid #58D68D;
+    border-left: 2px solid #58D68D;
+    border-bottom: 2px dashed #58D68D;
+    padding: 0.3em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: rgb(253, 247, 239);
+    margin-block-end: 0;
+}
+
+.titleInside {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftSide {
+    width: 70%;
+    float: left;
+}
+
+.rightSide {
+    width: 27%;
+    float: right;
 }
