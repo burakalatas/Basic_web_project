@@ -103,7 +103,7 @@ p {
         margin: 0;
     }
 
-    .navbar {
+    .navbar,#zafer {
         width: 94%;
         left: 3%;
     }
@@ -142,6 +142,22 @@ p {
     -moz-animation: AnimationName 5s ease infinite;
     animation: AnimationName 5s ease infinite;
 
+}
+#zafer{
+    padding: 0.3em;
+    border-radius: 5px;
+    background-color: rgb(239, 228, 214);
+    margin-bottom: 1em;
+
+
+    background: linear-gradient(270deg, red, white);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+
+    text-align: center;
 }
 
 @-webkit-keyframes AnimationName {

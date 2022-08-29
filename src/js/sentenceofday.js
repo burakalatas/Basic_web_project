@@ -20,6 +20,8 @@ quotes[7, 29] = "İnsanların seni en çok sevdiği zaman, onların işine en ç
 quotes[7, 30] = "Hayatta daima gerçekleri savun! Takdir eden olmasa bile, vicdanına hesap vermekten kurtulursun. -Che Guevara"
 quotes[7, 31] = "Hayat geç kalanları hiç affetmez. -Gorbachov"
 
+quotes[8,30]="Zafer, 'Zafer benimdir' diyebilenindir. Başarı ise, 'Başaracağım' diye başlayarak sonunda 'Başardım' diyebilenindir. -Mustafa Kemal ATATÜRK-"
+
 quotes[9, 1] = "Yalnızsın, eğer kendin için orada değilsen. -Phil McGraw"
 quotes[9, 2] = "Uçmayı seviyorsan, düşmeyi de bileceksin. Korkarak yaşıyorsan, yalnızca hayatı seyredersin..."
 quotes[9, 3] = "Nereye gittiğini bilmiyorsan, hangi yoldan gittiğinin hiçbir önemi yoktur."
@@ -47,6 +49,7 @@ quotes[9, 21] = "İnsanı farklı yapan affettikleri, güçlü yapan sabrettikle
 var a = new Date();
 var dayOfMonth = a.getDate();
 var MonthOfYear = (a.getMonth())+1;
+
 
 //display the quotation
 if (quotes[MonthOfYear, dayOfMonth] != "" && quotes[MonthOfYear, dayOfMonth] != undefined) {
