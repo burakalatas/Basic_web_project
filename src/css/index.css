@@ -15,13 +15,12 @@ body {
 
 .navbar {
     background-color: #58D68D;
-    /* margin-bottom: 1em; */
     width: 100%;
-    height: 3em;
     margin: 0;
     justify-content: space-around;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
+    justify-items: center;
 }
 
 .navbar a {
@@ -30,6 +29,7 @@ body {
 
 .navbar li {
     list-style-type: none;
+
 }
 
 ul {
@@ -103,14 +103,14 @@ p {
         margin: 0;
     }
 
-    .navbar,#monthOfMusic {
+    .navbar,#musicOfMonth {
         width: 94%;
         left: 3%;
     }
 
     #sentenceofdayexternal,
     .blog,
-    .blogtitle {
+    .blogtitle,#musicOfMonth {
         right: 0 !important;
         left: 3%;
         width: 94% !important;
@@ -143,7 +143,7 @@ p {
     animation: AnimationName 5s ease infinite;
 
 }
-#monthOfMusic{
+#musicOfMonth{
     border: 2px solid #58d4d6;
     padding: 0.3em;
     border-radius: 5px;

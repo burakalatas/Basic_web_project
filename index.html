@@ -39,14 +39,41 @@
 </head>
 
 <body>
-    <ul class="navbar" style="font-weight: bold;">
+    <!-- <ul class="navbar" style="font-weight: bold;">
         <li style="border: none;"><a href="index.html" style="font-family: 'Fredoka', sans-serif;">burakalatas.com</a>
         </li>
         <li class="lielements" onclick="dark()" style="cursor:pointer; font-family: 'Fredoka', sans-serif;">Koyu Mod
         </li>
-    </ul>
-    <div class="container" id="clock"><span id="date"></span> <span id="time"></span></div>
+    </ul> -->
 
+    <nav class="navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="color: black; font-size: 16px;">burakalatas.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" onclick="notActiveYet()" href="#" style="color: rgb(81, 70, 70); font-size: 16px;">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" onclick="notActiveYet()" aria-disabled="true" style="color: rgb(81, 70, 70); font-size: 16px;">Projeler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" onclick="notActiveYet()" aria-disabled="true" style="color: rgb(81, 70, 70); font-size: 16px;">Perspektif</a>
+              </li>
+
+            </ul>
+            <ul class="navbar-nav mb-2 mb-sm-0">
+                <li class="lielements" onclick="dark()" style="cursor:pointer; font-family: 'Fredoka', sans-serif;">Koyu Mod</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container" id="clock"><span id="date"></span> <span id="time"></span></div>
 
     <div class="container">
         <h1
@@ -61,12 +88,12 @@
         <p id="sentenceofday">Günün sözü atanmamış!</p>
     </div>
   
-    <div class="container" id="monthOfMusic">
+    <div id="musicOfMonth">
         <h3>Ayın Müziği:</h3>
         <table class="table" style="border-style: none !important;">
             <tr>
                 <td style="border: none;">
-                    <p id="monthOfMusicInternal">Ayın müziği atanmamış!</p> 
+                <p id="musicOfMonthInternal">Ayın müziği atanmamış!</p> 
                 </td>
                 <td style="border: none;"> 
                    <p style="text-align: end;">Birlikte Aç: 
@@ -109,9 +136,11 @@
     <script src="src/js/index.js"></script>
     <script src="src/js/timer.js"></script>
     <script src="src/js/sentenceofday.js"></script>
-    <script src="src/js/monthOfMusic.js"></script>
+    <script src="src/js/musicOfMonth.js"></script>
     <!-- Sweet Alert Js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

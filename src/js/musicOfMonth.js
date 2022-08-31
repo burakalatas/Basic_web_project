@@ -3,8 +3,8 @@ quotes[8]="Another Love";
 quotes[9] = "Another Love";
 
 YT = new Array();
-YT[8]="https://www.youtube.com/watch?v=07kwn_1LM7Y&ab_channel=EpicVibes";
-YT[9]="https://www.youtube.com/watch?v=07kwn_1LM7Y&ab_channel=EpicVibes";
+YT[8]="https://www.youtube.com/watch?v=MwpMEbgC7DA&ab_channel=TomOdellVEVO";
+YT[9]="https://www.youtube.com/watch?v=MwpMEbgC7DA&ab_channel=TomOdellVEVO";
 
 Sptfy = new Array();
 Sptfy[8]="https://open.spotify.com/track/3JvKfv6T31zO0ini8iNItO?si=4c97a99f24164a15";
@@ -22,7 +22,7 @@ var MonthOfYear = (a.getMonth())+1;
 
 //display the quotation
 if (quotes[MonthOfYear]!= "" && quotes[MonthOfYear]!= undefined) {
-    document.getElementById("monthOfMusicInternal").innerHTML = "\"" + quotes[MonthOfYear] + "\"";
+    document.getElementById("musicOfMonthInternal").innerHTML = "\"" + quotes[MonthOfYear] + "\"";
 }
 if (MonthOfYear < 10) {
     var c = MonthOfYear;

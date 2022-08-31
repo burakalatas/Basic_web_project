@@ -59,4 +59,8 @@ for (i = 0; i < coll.length; i++) {
 function denemeSA() {
     swal("sweet alert deneme mesajı");
 }
-//--------------------------------
+//--------------------------------aktif
+function notActiveYet(){
+    swal("Oopps bu sayfa henüz tamamlanmadı!","Lütfen daha sonra tekrar deneyiniz...")
+}
+
