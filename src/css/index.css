@@ -91,18 +91,32 @@ p {
         margin: 0;
     }
 
-    .navbar,#musicOfMonth {
+    .navbar,
+    #musicOfMonth {
         width: 94%;
         left: 3%;
     }
 
     #sentenceofdayexternal,
     .blog,
-    .blogtitle,#musicOfMonth {
+    .blogtitle,
+    #musicOfMonth {
         right: 0 !important;
         left: 3%;
         width: 94% !important;
         position: relative !important;
+    }
+
+    #footerWriting {
+        text-align: center;
+    }
+
+    #footerWriting ul li {
+        text-align: start;
+    }
+
+    .justify-content-between {
+        justify-content: space-evenly !important;
     }
 
 }
@@ -131,7 +145,8 @@ p {
     animation: AnimationName 5s ease infinite;
 
 }
-#musicOfMonth{
+
+#musicOfMonth {
     border: 2px solid #58d4d6;
     padding: 0.3em;
     border-radius: 5px;
