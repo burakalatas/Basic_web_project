@@ -46,4 +46,23 @@ function clock() {
 
     document.getElementById("time").innerHTML = nowHours + ":" + nowMinutes;
 }
+// day month year
 
+var a = new Date();
+var dayOfMonth = a.getDate();
+var MonthOfYear = (a.getMonth())+1;
+
+if (dayOfMonth < 10) {
+    var c = dayOfMonth;
+    dayOfMonth = "0";
+    dayOfMonth += c;
+
+}
+if (MonthOfYear < 10) {
+    var c = MonthOfYear;
+    MonthOfYear = "0";
+    MonthOfYear += c;
+}
+var year = a.getFullYear();
+
+document.getElementById("date").innerHTML = dayOfMonth + "." + MonthOfYear + "." + year;

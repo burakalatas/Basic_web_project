@@ -74,18 +74,6 @@ p {
     cursor: pointer;
 }
 
-.images img {
-    width: 31%;
-    height: 13em;
-    float: left;
-    margin-block-end: calc(7%/2);
-    margin-inline-end: calc(7%/2);
-}
-
-.images img:nth-child(3n) {
-    margin: 0;
-}
-
 #topButton {
     position: fixed;
     display: none;

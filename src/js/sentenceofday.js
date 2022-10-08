@@ -66,7 +66,5 @@ if (MonthOfYear < 10) {
     MonthOfYear = "0";
     MonthOfYear += c;
 }
-var year = a.getFullYear();
 
-document.getElementById("date").innerHTML = dayOfMonth + "." + MonthOfYear + "." + year;
 
