@@ -60,7 +60,7 @@ function denemeSA() {
     swal("sweet alert deneme mesajı");
 }
 //--------------------------------aktif
-function notActiveYet(){
-    swal("Oopps bu sayfa henüz tamamlanmadı!","Lütfen daha sonra tekrar deneyiniz...")
+function notActiveYet() {
+    swal("This page hasn't been completed yet!", "Please, try again later.", { button: "Alright!" });
 }
 
