@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <!-- Bootstrap -->
+    <!-- bootstrap link -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap from inline folder -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css">-->
+
 
     <!-- google font family link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,15 +32,17 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
 
+    <title>Home Page</title>
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/972c06a7b4.js" crossorigin="anonymous"></script>
 
     <!-- external css files -->
     <link rel="stylesheet" href="src/css/index.css">
+
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html" style="color: black; font-size: 16px;">burakalatas.com</a>
@@ -48,88 +54,70 @@
             <div class="collapse navbar-collapse" id="navbarsExample03">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" onclick="notActiveYet()"
-                            style="color: rgb(81, 70, 70); font-size: 16px;">Blog</a>
+                        <a class="nav-link active ok" aria-current="page" href="index.html"
+                            style="color: rgb(81, 70, 70); font-size: 16px;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" tabindex="-1" onclick="notActiveYet()" aria-disabled="true"
-                            style="color: rgb(81, 70, 70); font-size: 16px;">Projeler</a>
+                        <a class="nav-link active" aria-current="page" onclick="notActiveYet()" href="#"
+                            style="color: rgb(81, 70, 70); font-size: 16px;">Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="frames.html" tabindex="-1" aria-disabled="true"
-                            style="color: rgb(81, 70, 70); font-size: 16px;">Frames</a>
+                        <a class="nav-link active ok" href="photos.html" tabindex="-1" aria-disabled="true"
+                            style="color: rgb(81, 70, 70); font-size: 16px;">Photos</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link active ok" href="more.html" tabindex="-1" aria-disabled="true"
+                            style="color: rgb(81, 70, 70); font-size: 16px;">More</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-sm-0">
                     <li class="lielements" onclick="dark()" style="cursor:pointer; font-family: 'Fredoka', sans-serif;">
-                        Koyu Mod</li>
+                        Dark Mode</li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="container" id="clock"><span id="date"></span> <span id="time"></span></div>
 
 
-    <div class="album py-5">
-        <div class="container">
-
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                    <div class="card shadow-sm" style="min-height:23em;">
-                        <img src="/src/images/pexels-sami-anas-5137664.jpg" alt="scenery"
-                            style="border-top-left-radius:0.35em; border-top-right-radius:0.35em;">
-                        <div class="card-body">
-                            <p class="card-text mb-3">This is a wider card.</p>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center m-3 ">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">8 Ekim 2022</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm" style="min-height:23em;">
-                        <img src="/src/images/pexels-sami-anas-5137664.jpg" alt="scenery"
-                            style="border-top-left-radius:0.35em; border-top-right-radius:0.35em;">
-
-                        <div class="card-body">
-                            <p class="card-text mb-3">This is a wider card with supporting text below as a natural
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center m-3 ">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">8 Ekim 2022</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm" style="min-height:23em;">
-                        <img src="/src/images/pexels-sami-anas-5137664.jpg" alt="scenery"
-                            style="border-top-left-radius:0.35em; border-top-right-radius:0.35em;">
-                        <div class="card-body">
-                            <p class="card-text mb-3">This is a wider card with supporting text below as a natural
-                            </p>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center m-3 ">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">8 Ekim 2022</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="sentenceofdayexternal">
+        <H3>Sentence Of Day:</H3>
+        <table class="table table-borderless">
+            <tr>
+                <td>
+                    <p id="sentenceofday">Günün sözü atanmamış!</p>
+                </td>
+                <td style="text-align: right;">
+                    <a href="#" target="_blank" id="searchInTheLongman"
+                        style="text-decoration:none; color:black;">Search<i class="bi bi-play-fill"></i></a>
+                </td>
+            </tr>
+        </table>
     </div>
+
+    <div id="musicOfMonth">
+        <h3>Musif Of Month:</h3>
+        <table class="table" style="border-style: none !important;">
+            <tr>
+                <td style="border: none;" class="col-md-8">
+                    <p id="musicOfMonthInternal">Ayın müziği atanmamış!</p>
+                </td>
+                <td style="border: none;" class="col-md-4">
+                    <p style="text-align: end;">Open with:
+                        <a href="" id="YoutubeHref" style="color: red;" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="" id="SpotifyHref" style="color: #81b71a;" target="_blank"><i
+                                class="fa-brands fa-spotify"></i></a>
+                        <a href="" id="AppleHref" style="color: #c1c1c1;" target="_blank"><i
+                                class="fa-brands fa-apple"></i></a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
 
     <div style="height:25rem ;"></div>
     <div class="container">
@@ -140,7 +128,7 @@
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" target="_blank"
+                <li><a class="text-muted" target="_blank"
                         href="https://www.linkedin.com/in/burak-alata%C5%9F-0089b922a/"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -167,15 +155,17 @@
 
     <!-- Js Files -->
     <script src="src/js/index.js"></script>
-
+    <script src="src/js/timer.js"></script>
+    <script src="src/js/sentenceofday.js"></script>
+    <script src="src/js/musicOfMonth.js"></script>
     <!-- Sweet Alert Js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-    <!-- Bootstrap -->
+    <!-- Bootstrap Js -->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-</body>
 
-</html>
+    <!-- Bootstrap from inline folder -->
+    <!-- <script src="/bootstrap/js/bootstrap.bundle.js"></script> -->
+</body>
