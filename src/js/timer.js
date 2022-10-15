@@ -50,7 +50,7 @@ function clock() {
 
 var a = new Date();
 var dayOfMonth = a.getDate();
-var MonthOfYear = (a.getMonth())+1;
+var MonthOfYear = (a.getMonth()) + 1;
 
 if (dayOfMonth < 10) {
     var c = dayOfMonth;

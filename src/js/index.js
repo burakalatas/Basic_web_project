@@ -6,15 +6,10 @@ function dark() {
     var navbar = document.querySelector(".navbar");
     navbar.style.backgroundColor = navbar.style.backgroundColor === "gray" ? "#58D68D" : "gray";
 
-    // var button = document.querySelector("button");
-    // button.style.backgroundColor = button.style.backgroundColor === "gray" ? "#58D68D" : "gray";
-
     topButton.style.backgroundColor = topButton.style.backgroundColor === "gray" ? "#58D68D" : "gray";
 
     document.body.classList.toggle('BgGray');
 
-    var button2 = document.querySelector("topButton");
-    button2.style.backgroundColor = button2.style.backgroundColor === "gray" ? "#58D68D" : "gray";
 
 }
 //--------------------------------
@@ -25,7 +20,6 @@ function goUp() {
     document.documentElement.scrollTop = 0;
 }
 
-var topButton = document.getElementById("topButton");
 
 window.onscroll = function () { scrollFunction() };
 
