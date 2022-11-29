@@ -1,4 +1,4 @@
-# BurakWeb
+# Basic_web_project
 Old version of burakalatas.com
 
 This is my personel website's first version.
